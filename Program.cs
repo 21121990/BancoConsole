@@ -77,7 +77,7 @@ namespace BancoConsole
 
         private static void SacarConta()
         {
-            Console.Write("Digite o número da conta:");
+            Console.Write("Digite o número da conta: ");
             int indiceConta = int.Parse(Console.ReadLine());
 
             Console.Write("Digite o valor a ser sacado: ");
